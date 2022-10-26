@@ -9,7 +9,7 @@ const Section3 = () => {
       <h1 className="font-bold text-4xl py-12 text-center">Most Popular</h1>
 
       {/* swiper */}
-      <Swiper slidesPerView={2}>
+      <Swiper slidesPerView={2} spaceBetween={50}>
         <SwiperSlide>{Post()}</SwiperSlide>
         <SwiperSlide>{Post()}</SwiperSlide>
         <SwiperSlide>{Post()}</SwiperSlide>
