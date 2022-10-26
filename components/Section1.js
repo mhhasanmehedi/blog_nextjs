@@ -56,15 +56,15 @@ const Slide = () => {
               Your most unhappy customers are greatest source of learning
             </span>
           </Link>
-
-          <p className="text-gray-500 py-3">
-            Even teh all-powerful Pointing has no control about the blind texts
-            it is an almost unorthographic life One day however a small line of
-            blind text by the name of Lorem ipsum decided to leave for the far
-            World of Grammar.
-          </p>
-          <Author />
         </div>
+
+        <p className="text-gray-500 py-3">
+          Even teh all-powerful Pointing has no control about the blind texts it
+          is an almost unorthographic life One day however a small line of blind
+          text by the name of Lorem ipsum decided to leave for the far World of
+          Grammar.
+        </p>
+        <Author />
       </div>
     </div>
   );
