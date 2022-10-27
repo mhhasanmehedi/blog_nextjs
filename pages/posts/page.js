@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Author from "../../components/_child/Author";
+import Related from "../../components/_child/Related";
 import Format from "../../layout/Format";
 
 const Page = () => {
@@ -52,6 +53,7 @@ const Page = () => {
             </p>
           </div>
         </div>
+        <Related />
       </section>
     </Format>
   );
